@@ -1,0 +1,25 @@
+# الملفات الثنائية والتنفيذية
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ملفات الاختبار والكشف
+*.test
+*.out
+coverage.out
+
+# مجلدات التبعيات
+vendor/
+go.mod
+go.sum
+
+# IDE/Editor ملفات
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ملفات النظام
+.DS_Store
